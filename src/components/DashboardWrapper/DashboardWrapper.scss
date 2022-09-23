@@ -1,0 +1,40 @@
+@use '../../scss/utils/' as *;
+
+.dashboard-wrapper {
+  @include flex(stretch);
+
+  @include tablet {
+    flex-direction: column;
+  }
+
+  &__main {
+    flex-grow: 1;
+    padding-right: $sidebarWidth;
+
+    @include tablet {
+      padding-right: 0;
+    }
+  }
+
+  &__right {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: $sidebarWidth;
+    height: 100vh;
+    padding: $spacing;
+    border-top-left-radius: $borderRadius;
+    border-bottom-left-radius: $borderRadius;
+    background-color: $mainBg;
+
+    @include tablet {
+      position: relative;
+      width: 100%;
+      height: max-content;
+      padding: $tabletSpacing;
+      margin-top: $tabletSpacing;
+      border-top-right-radius: $borderRadius;
+      border-bottom-right-radius: $borderRadius;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+@use '../../scss/utils/' as *;
+
+.user-info {
+  @include flex(center, space-between);
+  width: max-content;
+  height: 50px;
+  border-radius: $borderRadius;
+  background-color: $mainBg;
+
+  &__avatar {
+    --size: 50px;
+    width: var(--size);
+    height: var(--size);
+    border-radius: $borderRadius;
+
+    img {
+      border-radius: inherit;
+    }
+  }
+
+  &__name {
+    padding: 0 $spacing;
+    font-size: $fontSizeMedium;
+    font-weight: 700;
+
+    @include tablet {
+      padding: 0 $tabletSpacing;
+    }
+  }
+}

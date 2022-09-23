@@ -1,0 +1,28 @@
+@use '../../scss/utils/' as *;
+
+.top-navbar {
+  @include flex(center, space-between);
+  margin-bottom: $spacing;
+
+  @include tablet {
+    margin-bottom: $tabletSpacing;
+  }
+}
+
+.sidebar-toggle {
+  --size: 40px;
+  @include flex(center, center);
+  width: var(--size);
+  height: var(--size);
+  cursor: pointer;
+  display: none;
+
+  @include tablet {
+    display: flex;
+  }
+
+  i {
+    font-size: 4.8rem;
+    color: $mainColor;
+  }
+}
