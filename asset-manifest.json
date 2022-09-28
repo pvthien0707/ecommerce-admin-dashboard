@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/ecommerce-admin-dashboard/static/css/main.f56c7233.css",
+    "main.js": "/ecommerce-admin-dashboard/static/js/main.0b85396f.js",
+    "static/media/boxicons.svg": "/ecommerce-admin-dashboard/static/media/boxicons.17f6cb4eef77f07f2caa.svg",
+    "static/media/boxicons.eot": "/ecommerce-admin-dashboard/static/media/boxicons.dfc882ec9689f820c7c9.eot",
+    "static/media/boxicons.woff": "/ecommerce-admin-dashboard/static/media/boxicons.1a7e2e2bf3a855e674d4.woff",
+    "static/media/boxicons.ttf": "/ecommerce-admin-dashboard/static/media/boxicons.22afc8ee5cfc540cddff.ttf",
+    "static/media/boxicons.woff2": "/ecommerce-admin-dashboard/static/media/boxicons.60f603cccbdff82a523c.woff2",
+    "static/media/avatar.jpg": "/ecommerce-admin-dashboard/static/media/avatar.d602aaf87ec9e6c91a13.jpg",
+    "static/media/logo.svg": "/ecommerce-admin-dashboard/static/media/logo.dda2f44262639a5b4dd2ebc588be0626.svg",
+    "index.html": "/ecommerce-admin-dashboard/index.html",
+    "main.f56c7233.css.map": "/ecommerce-admin-dashboard/static/css/main.f56c7233.css.map",
+    "main.0b85396f.js.map": "/ecommerce-admin-dashboard/static/js/main.0b85396f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f56c7233.css",
+    "static/js/main.0b85396f.js"
+  ]
+}
